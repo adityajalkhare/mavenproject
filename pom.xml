@@ -5,8 +5,10 @@
 	<groupId>com.maven</groupId>
 	<artifactId>mavendemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
