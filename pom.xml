@@ -5,6 +5,8 @@
 	<groupId>com.maven</groupId>
 	<artifactId>mavendemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
 
 	<dependencies>
 		<dependency>
